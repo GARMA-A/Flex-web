@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+       <header class="header">
+       <img src="img/logo.png" alt="logo" class="logo">
+       
+       <form action="#" class="search">
+        <input type="text"  class="focus" placeholder="search hotels">
+        <button class="button"  >
+            <img src = "SVG/search.svg" class="s-icon" alt="My Happy SVG "/>
+        </button>
+       </form>
+    
+
+       <nav class="user-nav">
+        <div class="icon-box">
+
+<span class="notification">
+    <img src="SVG/bookmark.svg" class="b-icon" alt="img"> 
+    9
+</span>
+
+<span class="notification">
+    <img src="SVG/typing.svg" alt="img">
+    18
+</span>
+<div class="user">
+<img src="img/me.jpeg" class="user-p" alt="img">
+<span class="user-name">
+    GARMA
+</span>
+</div> 
+
+        </div>
+       </nav>
+
+       </header>
+       <div class="content">
+        <nav class="sidebar">
+            <ul class="side-nav">
+          <li class="side-nav-item home">
+            <a href="#" class="side-nav-link">
+                <img src="SVG/home.svg"class="side-nav-icon home" alt="img">
+                <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#" class="side-nav-link">
+                <img src="SVG/aircraft-take-off.svg"class="side-nav-icon air" alt="img">
+                <span>Air port</span>
+            </a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#" class="side-nav-link">
+                <img src="SVG/map2.svg"class="side-nav-icon map" alt="img">
+                <span>Location</span>
+            </a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#" class="side-nav-link">
+                <img src="SVG/key.svg"class="side-nav-icon key" alt="img">
+                <span>Key </span>
+            </a>
+          </li>
+        </ul>
+        <div class="legal">
+              &copy; 2023 by Girgis emad | All rights reserved.
+        </div>
+        </nav>
+        <main class="hotel">
+         <div class="gallery">
+            <figure class="gallery-item">
+                <img src="img/hotel-1.jpg" class="photo" alt="img">
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/hotel-2.jpg" class="photo" alt="img">
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/hotel-3.jpg" class="photo" alt="img">
+            </figure>
+         </div>
+
+
+         <div class="overview">
+            <h1 class="heading">
+             hotel las palmas
+            </h1>
+            <div class="stars">
+                <img src="SVG/star.svg"class="star-icon" alt="img">
+          
+            
+                <img src="SVG/star.svg"class="star-icon" alt="img">
+           
+            
+                <img src="SVG/star.svg"class="star-icon" alt="img">
+            
+           
+                <img src="SVG/star.svg"class="star-icon" alt="img">
+            
+           
+                <img src="SVG/star.svg"class="star-icon" alt="img">
+            
+        </div>
+       
+        
+         <div class="location">
+            <img src="SVG/compass.svg" class="location-icon" alt="img">
+            <button class="btn-inline">Albufeira , portugal</button>
+         </div>
+         <div class="rating">
+            <div class="average">9.2</div>
+            <div class="rating-votes">1200 votes</div>
+
+         </div>
+        </div>
+        <div class="detail">
+            <div class="description">
+<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem cumque distinctio. Adipisci laudantium eos pariatur, saepe aliquam architecto aperiam? Dolor voluptates molestiae delectus!</p>
+<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem cumque distinctio. Adipisci laudantium eos pariatur, saepe aliquam architecto aperiam? Dolor voluptates molestiae delectus!</p>
+<ul class="list">
+    <li class="item"><span> > </span>Close to the beach</li>
+    <li class="item"><span> > </span>Breakfast included</li>
+    <li class="item"><span> > </span>Free airport shuttle</li>
+    <li class="item"><span> > </span>Free wifi in all rooms</li>
+    <li class="item"><span> > </span>Air conditioning</li>
+    <li class="item"><span> > </span>Pets allowed</li>
+    <li class="item"><span> > </span>We speak all languages </li>
+    <li class="item"><span> > </span>Perfect for families</li>
+</ul>
+<div class="all-recomended">
+<div class="recomend">
+    <p class="rec-count">
+        lucy and 3 other friends recommended that
+</p>
+</div>
+<div class="rec-friends">
+    <img src="img/user-1.jpg" class="photoo" alt="img">
+    <img src="img/user-2.jpg" class="photoo" alt="img">
+    <img src="img/user-3.jpg" class="photoo" alt="img">
+    <img src="img/user-4.jpg" class="photoo" alt="img">
+
+</div>
+</div>
+<div class="cta">
+    <h2 class="book-now">
+        Good news ! we have 4 free rooms
+        for your selected dates!
+    </h2>
+    <button class="btn">
+        <span class="btn-visible">
+            Book now!
+        </span>
+      
+    </button>
+</div>
+            </div>
+            <div class="user-review">
+                <div class="reviews">
+                    <figure class="review">
+                        
+                         <blockquote class="review-text"> 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor voluptatibus exercitationem cupiditate quae labore voluptate vero officia provident, hic, corporis rerum inventore repellat odio.
+                         </blockquote>
+                         <figcaption class="review-user">
+                            <div class="user-caption">
+                            <img src="img/user-5.jpg" class="user-photo" alt="img">
+                            <div class="user-box">
+                                <p class="username">
+                                    nick smith
+                                </p>
+                                <p class="user-date">
+                                    Feb 23rd , 2022
+                                </p>
+                            </div>
+                        </div>
+                                <div class="review-rating">
+                                    8.2
+                                </div>
+                            
+                         </figcaption>
+                    </figure>
+
+
+                    <figure class="review">
+                       
+                        <blockquote class="review-text"> 
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor voluptatibus exercitationem cupiditate quae labore voluptate vero officia provident, hic, corporis rerum inventore repellat odio.
+                        </blockquote>
+                        <figcaption class="review-user">
+                            <div class="user-caption">
+                           <img src="img/user-6.jpg" class="user-photo" alt="img">
+                           <div class="user-box">
+                               <p class="username">
+                                   mary thomas
+                               </p>
+                               <p class="user-date">
+                                   Mar 13th , 2023
+                               </p>
+                               </div>
+                            </div>
+                               <div class="review-rating">
+                                   9.1
+                               </div>
+                          
+                        </figcaption>
+                   </figure>
+                   <button class="btn-inline">
+                    Show all <span>&rarr;</span>
+                   </button>
+                </div>
+
+            </div>
+      
+        </div>
+   
+        </main>
+
+       </div>
+    </div>
+
+  
+</body>
+</html>
